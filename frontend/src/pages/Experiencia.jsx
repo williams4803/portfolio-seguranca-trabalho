@@ -6,7 +6,7 @@ function Experiencia() {
       {/* EXPERIÊNCIA 1 */}
       <div style={styles.card}>
         <h2>Técnico em Segurança do Trabalho</h2>
-        <h4>Metalúrgica XYZ | 2022 - Atual</h4>
+        <h4>Metalúrgica Jaguar Equipamentos | 2024 - Atual</h4>
 
         <p>
           Atuação na prevenção de acidentes e promoção de um ambiente de trabalho seguro,
@@ -25,7 +25,7 @@ function Experiencia() {
       {/* EXPERIÊNCIA 2 */}
       <div style={styles.card}>
         <h2>Auxiliar de Segurança do Trabalho</h2>
-        <h4>Empresa ABC | 2020 - 2022</h4>
+        <h4>Empresa Academia LetsFit | 2023 - 2024</h4>
 
         <p>
           Suporte nas rotinas de segurança do trabalho, contribuindo para o cumprimento
