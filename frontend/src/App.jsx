@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import Sobre from './pages/Sobre'
+import Sobre from './pages/sobre'
 import Experiencia from './pages/Experiencia'
 import Projetos from './pages/Projetos'
 import Contato from './pages/Contato'
