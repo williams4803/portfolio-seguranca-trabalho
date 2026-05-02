@@ -1,16 +1,40 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+
 function Navbar() {
+  const [menuAberto, setMenuAberto] = useState(false)
+
+  const alternarMenu = () => {
+    setMenuAberto((valorAtual) => !valorAtual)
+  }
+
+  const fecharMenu = () => {
+    setMenuAberto(false)
+  }
+
   return (
     <nav style={styles.nav}>
       <h2 style={styles.logo}>Segurança do Trabalho</h2>
-       
-      <ul style={styles.menu}>
-        <li><Link to="/">Início</Link></li>
-        <li><Link to="/sobre">Sobre</Link></li>
-        <li><Link to="/experiencia">Experiência</Link></li>
-        <li><Link to="/projetos">Projetos</Link></li>
-        <li><Link to="/contato">Contato</Link></li>
-      </ul>
+
+      <button
+        type="button"
+        style={styles.botaoMenu}
+        onClick={alternarMenu}
+        aria-label="Abrir menu de navegação"
+        aria-expanded={menuAberto}
+      >
+        ☰
+      </button>
+
+      {menuAberto && (
+        <ul style={styles.menuDropdown}>
+          <li><Link to="/" onClick={fecharMenu}>Início</Link></li>
+          <li><Link to="/sobre" onClick={fecharMenu}>Sobre</Link></li>
+          <li><Link to="/experiencia" onClick={fecharMenu}>Experiência</Link></li>
+          <li><Link to="/projetos" onClick={fecharMenu}>Projetos</Link></li>
+          <li><Link to="/contato" onClick={fecharMenu}>Contato</Link></li>
+        </ul>
+      )}
     </nav>
   )
 }
@@ -27,10 +51,27 @@ const styles = {
   logo: {
     color: '#facc15'
   },
-  menu: {
-    display: 'flex',
+  botaoMenu: {
+    backgroundColor: 'transparent',
+    border: '1px solid #facc15',
+    color: '#facc15',
+    fontSize: '24px',
+    borderRadius: '8px',
+    padding: '4px 10px',
+    cursor: 'pointer'
+  },
+  menuDropdown: {
+    position: 'absolute',
+    top: '70px',
+    right: '30px',
+    backgroundColor: '#0f172a',
+    border: '1px solid #facc15',
+    borderRadius: '10px',
+    padding: '12px 16px',
     listStyle: 'none',
-    gap: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '10px',
     color: '#e2e8f0',
     cursor: 'pointer'
   }
