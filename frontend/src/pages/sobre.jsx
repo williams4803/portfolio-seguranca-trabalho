@@ -28,6 +28,16 @@ function Sobre() {
           <li>NR-06 – Equipamentos de Proteção Individual (EPI)</li>
           <li>NR-11 – Transporte em Movimento, Armazenagem e Manuseio de Materiais</li>
         </ul>
+
+         {/* CERTIFICAÇÕES ADICIONAIS */}
+      <div style={styles.card}></div>
+        <h2>Certificações Adicionais</h2>
+        
+        <ul>
+          <li>Saúde Ocupacional</li>
+          <li>Gerenciamento de Risco</li>
+          <li>Proteção contra Incêndios e Explosões</li>
+        </ul>
       </div>
 
       {/* COMPETÊNCIAS */}
