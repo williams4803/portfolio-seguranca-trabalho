@@ -13,7 +13,7 @@ function Sobre() {
       <div style={styles.card}>
         <h2>Formação</h2>
         <p>Técnico em Segurança do Trabalho</p>
-        <p>Instituição: (coloque aqui)</p>
+        <p>Instituição: Centro Educacional Estácio Ribeirão Preto - SP</p>
       </div>
 
       {/* CERTIFICAÇÕES */}
@@ -26,6 +26,7 @@ function Sobre() {
           <li>NR-35 – Trabalho em Altura</li>
           <li>NR-33 – Espaço Confinado</li>
           <li>NR-06 – Equipamentos de Proteção Individual (EPI)</li>
+          <li>NR-11 – Transporte em Movimento, Armazenagem e Manuseio de Materiais</li>
         </ul>
       </div>
 
