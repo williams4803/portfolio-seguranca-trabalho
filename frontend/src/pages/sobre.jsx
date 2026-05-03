@@ -4,9 +4,12 @@ function Sobre() {
       <h1 style={styles.titulo}>Sobre</h1>
 
       <p style={styles.texto}>
-        Profissional da área de Segurança do Trabalho com foco na prevenção de acidentes,
-        análise de riscos e cumprimento das Normas Regulamentadoras (NRs). Experiência em
-        ambiente industrial, com atuação em inspeções, treinamentos e controle de riscos.
+        Eu Williams Carvalho de Jesus, profissional da área de Segurança do Trabalho com <br />
+        foco na prevenção de acidentes,
+        análise de riscos e cumprimento das Normas Regulamentadoras <br />
+        (NRs). Experiência em
+        ambiente industrial, com atuação em inspeções, <br />
+        treinamentos e controle de riscos.
       </p>
 
       {/* FORMAÇÃO */}

@@ -9,7 +9,7 @@ function Experiencia() {
         <h4>Metalúrgica Jaguar Equipamentos | 2024 - Atual</h4>
 
         <p>
-          Atuação na prevenção de acidentes e promoção de um ambiente de trabalho seguro,
+          Atuação na prevenção de acidentes e promoção de um ambiente de trabalho seguro,<br />
           com foco em atividades industriais e operações de risco.
         </p>
 
@@ -28,8 +28,10 @@ function Experiencia() {
         <h4>Empresa Academia LetsFit | 2023 - 2024</h4>
 
         <p>
-          Suporte nas rotinas de segurança do trabalho, contribuindo para o cumprimento
-          das normas regulamentadoras e redução de riscos ocupacionais.
+          Suporte nas rotinas de segurança do trabalho,<br />
+           contribuindo para o cumprimento
+          das normas regulamentadoras, controle dos extintores,<br />
+          e redução de riscos ocupacionais.
         </p>
 
         <ul>
@@ -46,7 +48,7 @@ function Experiencia() {
         <h4>Plano de Segurança Industrial</h4>
 
         <p>
-          Desenvolvimento de projeto completo envolvendo análise de riscos,
+          Desenvolvimento de projeto completo envolvendo análise de riscos,<br />
           plano de emergência e medidas preventivas em ambiente industrial.
         </p>
 
