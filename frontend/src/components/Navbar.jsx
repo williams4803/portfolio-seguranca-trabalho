@@ -33,6 +33,7 @@ function Navbar() {
           <li><Link to="/experiencia" onClick={fecharMenu}>Experiência</Link></li>
           <li><Link to="/projetos" onClick={fecharMenu}>Projetos</Link></li>
           <li><Link to="/contato" onClick={fecharMenu}>Contato</Link></li>
+          <li><Link to="/gestao-ambiental" onClick={fecharMenu}>Gestão Ambiental</Link></li>
         </ul>
       )}
     </nav>
