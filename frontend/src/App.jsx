@@ -4,6 +4,7 @@ import Sobre from './pages/sobre'
 import Experiencia from './pages/Experiencia'
 import Projetos from './pages/Projetos'
 import Contato from './pages/Contato'
+import GestaoAmbiental from "./pages/GestaoAmbiental";
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/experiencia" element={<Experiencia />} />
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/gestao-ambiental" element={<GestaoAmbiental />} />
       </Routes>
     </>
   )
