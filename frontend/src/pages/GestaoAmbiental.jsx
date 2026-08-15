@@ -38,8 +38,10 @@ function GestaoAmbiental() {
       <h1 style={styles.titulo}>Gestão Ambiental</h1>
 
       <p style={styles.descricao}>
-        Pós-graduação em Gestão Ambiental pela Universidade Estácio de Sá, com foco em
-        sustentabilidade, prevenção de riscos e boas práticas ambientais aplicadas ao ambiente corporativo.
+        Pós-graduação em Gestão Ambiental pela Universidade Estácio de Sá, /n
+        com foco em sustentabilidade, prevenção de riscos e boas práticas ambientais /n
+        aplicadas ao ambiente corporativo.
+
       </p>
 
       <h2 style={styles.subtitulo}>Disciplinas Cursadas</h2>
